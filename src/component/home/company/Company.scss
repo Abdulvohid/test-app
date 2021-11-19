@@ -1,0 +1,33 @@
+.company__content {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+  margin-bottom: 150px;
+}
+.company__title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #38485a;
+  font-weight: bold;
+}
+.company__disc {
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.company__btn {
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  background: #ef7857;
+  border-radius: 30px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  &:hover {
+    background: #d47054;
+  }
+}

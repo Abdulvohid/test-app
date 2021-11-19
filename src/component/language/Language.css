@@ -1,0 +1,79 @@
+.lang__wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lang__wrap:hover .lang__item {
+  display: block;
+}
+
+.lang__hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.lang__img {
+  width: 13px;
+  height: 13px;
+}
+
+.lang__img__prev {
+  width: 12px;
+  height: 8px;
+  margin-left: 10px;
+}
+
+.lang__text {
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  position: relative;
+}
+
+.lang__item {
+  position: absolute;
+  margin-top: 0;
+  display: none;
+  background: #bebebe;
+}
+
+.lang__item:hover {
+  display: block;
+}
+
+.lang__item li {
+  list-style: none;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 75px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.lang__item li:hover {
+  color: #4e4141;
+}
+
+.lang__profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.lang__text {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Language.css.map */

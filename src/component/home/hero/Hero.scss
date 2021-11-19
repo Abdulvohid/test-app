@@ -1,0 +1,55 @@
+.hero_content {
+  margin-top: 100px;
+  display: flex;
+}
+.hero__text {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #38485a;
+}
+.hero__disc {
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+.hero__btn {
+  background: #ef7857;
+  border: none;
+  color: #fff;
+  border-radius: 16px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 1s ease;
+  &:hover {
+    transition: 1s ease;
+    background: #b95c43;
+  }
+}
+
+.slide__item {
+  width: 40%;
+}
+.slide__item {
+  width: 663px;
+  height: 527px;
+  .slick-track {
+    width: 50%;
+    background: #c4c4c4;
+  }
+}
+.slide__img {
+  padding: 32px 40px 0px 52px;
+  border-radius: 16px;
+  width: 542px;
+  height: 384px;
+  top: 32px;
+}
+.slide__text {
+  padding-left: 55px;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ef7857;
+}

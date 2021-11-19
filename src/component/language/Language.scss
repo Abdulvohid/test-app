@@ -1,0 +1,59 @@
+.lang__wrap {
+  display: inline-flex;
+  align-items: center;
+  &:hover {
+    .lang__item {
+      display: block;
+    }
+  }
+}
+.lang__hero {
+  display: flex;
+  margin-top: 20px;
+}
+.lang__img {
+  width: 13px;
+  height: 13px;
+}
+.lang__img__prev {
+  width: 12px;
+  height: 8px;
+  margin-left: 10px;
+}
+.lang__text {
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  position: relative;
+}
+.lang__item {
+  position: absolute;
+  margin-top: 0;
+  display: none;
+  background: rgb(190, 190, 190);
+  &:hover {
+    display: block;
+  }
+  li {
+    list-style: none;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+    &:hover {
+      color: rgb(78, 65, 65);
+    }
+  }
+}
+.lang__profil {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.lang__text {
+  margin-left: 10px;
+}
